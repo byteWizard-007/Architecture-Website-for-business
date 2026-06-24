@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | ARCHVISTA STUDIO</title>
+    <meta name="description" content="Learn about ARCHVISTA STUDIO, our history, philosophy, and the award-winning team behind our iconic architectural designs.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="scrolled"> <!-- Always scrolled on internal pages for visibility -->
+        <div class="container px-6 flex justify-between items-center h-full">
+            <a href="index.html" class="logo-text text-navy">ARCHVISTA</a>
+            
+            <!-- Desktop Nav -->
+            <nav class="desktop-nav hidden md:flex items-center">
+                <a href="index.html" class="nav-link text-navy">Home</a>
+                <a href="about.html" class="nav-link active text-navy">About</a>
+                <a href="services.html" class="nav-link text-navy">Services</a>
+                <a href="portfolio.html" class="nav-link text-navy">Portfolio</a>
+                <a href="blog.html" class="nav-link text-navy">Journal</a>
+                <a href="contact.html" class="nav-link text-navy">Contact</a>
+                <a href="consultation-booking.html" class="nav-link ml-8 btn-primary">Book Consultation</a>
+            </nav>
+
+            <!-- Mobile Menu Btn -->
+            <button class="mobile-menu-btn hidden text-navy text-3xl focus:outline-none">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Menu Overlay -->
+    <div class="menu-overlay"></div>
+
+    <!-- Page Banner -->
+    <section class="page-banner pt-32">
+        <img src="images/arch_3.jpg" alt="About Us Banner" class="page-banner-bg">
+        <div class="hero-overlay"></div>
+        <div class="container px-6 relative z-10 text-center">
+            <h1 class="page-banner-title reveal-text text-white">About Studio</h1>
+            <div class="breadcrumb" data-aos="fade-up" data-aos-delay="200">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>About</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="py-24 bg-white">
+        <div class="container px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="relative reveal-image" data-aos="fade-right">
+                    <img src="images/arch_14.jpg" alt="Our Studio" class="w-full h-auto rounded-sm shadow-xl">
+                </div>
+                <div data-aos="fade-left">
+                    <span class="section-subtitle">Our Heritage</span>
+                    <h2 class="section-title text-navy">A Legacy of Design Excellence Since 1998</h2>
+                    <p class="text-lg text-gray-600 mb-6">Founded in London by visionary architects, ARCHVISTA STUDIO began with a simple yet profound mission: to create spaces that elevate the human spirit.</p>
+                    <p class="text-gray-500 mb-6">Over the past 25+ years, we have grown from a boutique firm into a global powerhouse in luxury architecture, urban planning, and interior design. Our portfolio spans 15 countries, featuring everything from avant-garde residential villas to sustainable corporate headquarters.</p>
+                    <p class="text-gray-500 mb-8">We combine rigorous structural engineering with fluid, emotional design to produce landmarks that stand the test of time.</p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Signature_of_John_Hancock.svg" alt="Founder Signature" class="h-12 opacity-50 filter grayscale">
+                    <p class="mt-2 text-sm text-navy font-bold font-heading">Elena Rostova, Founder</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values -->
+    <section class="py-24 bg-soft-gray">
+        <div class="container px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="section-subtitle">Our Principles</span>
+                <h2 class="section-title text-navy">The Archvista Way</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Value 1 -->
+                <div class="bg-white p-10 rounded-sm shadow-md hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-light-beige rounded-full flex items-center justify-center mb-6 text-gold text-2xl">
+                        <i class="bi bi-lightbulb"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy mb-4 font-heading">Innovation</h3>
+                    <p class="text-gray-500 text-sm">We constantly push the boundaries of materials and technology to discover new ways of building.</p>
+                </div>
+                <!-- Value 2 -->
+                <div class="bg-white p-10 rounded-sm shadow-md hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-light-beige rounded-full flex items-center justify-center mb-6 text-gold text-2xl">
+                        <i class="bi bi-tree"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy mb-4 font-heading">Sustainability</h3>
+                    <p class="text-gray-500 text-sm">Every project is designed with a deep respect for the environment, minimizing carbon footprints through smart design.</p>
+                </div>
+                <!-- Value 3 -->
+                <div class="bg-white p-10 rounded-sm shadow-md hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 bg-light-beige rounded-full flex items-center justify-center mb-6 text-gold text-2xl">
+                        <i class="bi bi-gem"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy mb-4 font-heading">Elegance</h3>
+                    <p class="text-gray-500 text-sm">We believe true luxury lies in simplicity, perfect proportions, and the meticulous execution of details.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    
+    <!-- Extended Image Gallery -->
+    <section class="py-16 bg-white">
+        <div class="container px-6">
+            <div class="text-center mb-10">
+                <span class="section-subtitle">Visuals</span>
+                <h2 class="section-title text-navy">Project Gallery</h2>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="reveal-image" data-aos="fade-up" data-aos-delay="0"><img src="images/arch_9.jpg" class="w-full h-48 object-cover rounded shadow-sm hover:scale-105 transition-transform cursor-pointer lightbox-trigger"></div>
+                <div class="reveal-image" data-aos="fade-up" data-aos-delay="100"><img src="images/arch_17.jpg" class="w-full h-48 object-cover rounded shadow-sm hover:scale-105 transition-transform cursor-pointer lightbox-trigger"></div>
+                <div class="reveal-image" data-aos="fade-up" data-aos-delay="200"><img src="images/arch_17.jpg" class="w-full h-48 object-cover rounded shadow-sm hover:scale-105 transition-transform cursor-pointer lightbox-trigger"></div>
+                <div class="reveal-image" data-aos="fade-up" data-aos-delay="300"><img src="images/arch_1.jpg" class="w-full h-48 object-cover rounded shadow-sm hover:scale-105 transition-transform cursor-pointer lightbox-trigger"></div>
+                <div class="reveal-image" data-aos="fade-up" data-aos-delay="400"><img src="images/arch_13.jpg" class="w-full h-48 object-cover rounded shadow-sm hover:scale-105 transition-transform cursor-pointer lightbox-trigger"></div>
+                <div class="reveal-image" data-aos="fade-up" data-aos-delay="500"><img src="images/arch_13.jpg" class="w-full h-48 object-cover rounded shadow-sm hover:scale-105 transition-transform cursor-pointer lightbox-trigger"></div>
+                <div class="reveal-image" data-aos="fade-up" data-aos-delay="600"><img src="images/arch_6.jpg" class="w-full h-48 object-cover rounded shadow-sm hover:scale-105 transition-transform cursor-pointer lightbox-trigger"></div>
+                <div class="reveal-image" data-aos="fade-up" data-aos-delay="700"><img src="images/arch_2.jpg" class="w-full h-48 object-cover rounded shadow-sm hover:scale-105 transition-transform cursor-pointer lightbox-trigger"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div>
+                    <h2 class="text-2xl font-bold font-heading text-white mb-6 tracking-widest">ARCHVISTA</h2>
+                    <p class="text-sm mb-6 pr-4">Designing tomorrow's landmarks today. We are a global architecture firm committed to sustainable and innovative design.</p>
+                    <div class="flex">
+                        <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="footer-link">About Studio</a></li>
+                        <li><a href="portfolio.html" class="footer-link">Our Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom text-sm text-gray-500 mt-12 pt-6 border-t border-gray-800">
+                <p>&copy; 2026 ARCHVISTA STUDIO. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP & AOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    <script src="js/animations.js"></script>
+
+</body>
+</html>
